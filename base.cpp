@@ -128,7 +128,7 @@ void main()
             DeleteSubscriber(i - 1); break;
         case 5:
         {
-            ifstream theFile("/Users/sonia/Documents/movies.txt");
+            ifstream theFile("movies.txt");
             int num, id;
 
             while (!theFile.eof()) {
